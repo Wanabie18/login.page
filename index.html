@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    <link rel="icon" type="image/x-icon" href="draven.jpg">
+</head>
+<body>
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background:url('g30K.gif') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    width: 380px;
+    margin: 5vh auto 10vh;
+    background-color: rgba(210,230,214, 0.7); /* Transparent color */
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-family: "Old English Text MT", serif;
+    color: black;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc; 
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: "Comic Sans MS", cursive;
+    color: black;
+}
+
+input[type="password"] {
+    font-family: "Comic Sans MS", cursive;
+    color: black;
+}
+
+.login-button {
+    background-color: #add8e6; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #87ceeb; 
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.input-field {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  width: 150px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}</style>
+    <div class="container">
+        <h1>Sign in Access Your Account </h1>
+        <form action="#">
+            <input type="text" placeholder="Username" class="input-field" required>
+            <input type="password" placeholder="Password" class="input-field" required>
+         <button type="submit" class="login-button">Sign in</></button>
+        </form>
+        <p>Don't have an account? <a href="registerr.html">Register here!</a></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><img src="feccbook.jpg" alt="Facebook"></a>
+            <a href="https://www.twitter.com"><img src="twiter.jpg" alt="Twitter"></a>
+            <a href="https://www.google.com"><img src="Gogle.jpg" alt="Google"></a>
+        </div>
+    </div>
+</body>
+</html>
